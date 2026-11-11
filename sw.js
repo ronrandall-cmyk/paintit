@@ -1,6 +1,6 @@
 // Service worker: keeps a copy of the app so it starts instantly and works with no connection.
 // build.mjs stamps the version below with a hash of the built files, so any new build replaces the old copy.
-const CACHE = 'paintit-6cbd4a9fa6fb';
+const CACHE = 'paintit-c3b172d683bc';
 const SHELL = ['./', 'manifest.webmanifest', 'icon-192.png', 'icon-512.png', 'icon-maskable-512.png'];
 
 self.addEventListener('install', e => {
